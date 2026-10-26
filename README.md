@@ -5,7 +5,7 @@ An end-to-end data engineering project that integrates structured data from Post
 ## Project Architecture & Dashboard Preview
 
 <p align="center">
-  <img src="./images/dash1.png" width="800">
+  <img src="images/dash1.png" width="800">
   <br><br>
-  <img src="./images/dash2.png" width="800">
+  <img src="images/dash2.png" width="800">
 </p>
