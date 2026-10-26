@@ -4,4 +4,4 @@ An end-to-end data engineering project that integrates structured data from Post
 
 ## Project Architecture & Dashboard Preview
 
-<img src="images/dash1.png" alt="Dashboard">
+![Dashboard](dash1.png)
