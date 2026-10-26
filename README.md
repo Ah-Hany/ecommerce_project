@@ -24,7 +24,7 @@ This project simulates a real-world e-commerce data pipeline:
 - Automated data quality standardization (`str.title()`, `str.strip()`).
 - High-level KPIs tracking total revenue, total orders, and overall items sold dynamically.
 
-![Dashboard 1](https://raw.githubusercontent.com/Ah-Hany/ecommerce_project/main/Screenshot%202026-10-26%20201215.png)
+![Dashboard 1](Screenshot%202026-10-26%20201215.png)
 
 ---
 
@@ -32,4 +32,4 @@ This project simulates a real-world e-commerce data pipeline:
 - Revenue and sales volume tracking broken down by product category.
 - Customer sentiment integration incorporating average ratings mapped seamlessly from NoSQL reviews.
 
-![Dashboard 2](https://raw.githubusercontent.com/Ah-Hany/ecommerce_project/main/Screenshot%202026-10-26%20201243.png)
+![Dashboard 2](Screenshot%202026-10-26%20201243.png)
