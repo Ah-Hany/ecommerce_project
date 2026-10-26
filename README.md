@@ -23,5 +23,7 @@ This project simulates a real-world e-commerce data pipeline:
 
 ## 📊 Project Screenshots
 
-![E-Commerce Dashboard 1](Screenshot-2026-10-26-173322.png)
-![E-Commerce Dashboard 2](Screenshot-2026-10-26-173354.png)
+<p align="center">
+  <img src="Screenshot-2026-10-26-173322.png" width="48%" />
+  <img src="Screenshot-2026-10-26-173354.png" width="48%" />
+</p>
