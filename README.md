@@ -23,7 +23,7 @@ This project simulates a real-world e-commerce data pipeline:
 - Customer sentiment integration (Average ratings mapped from NoSQL reviews).
 
 ### 1. Dashboard Overview & Metrics
-![Dashboard 1](Screenshot 2026-10-26 173322.png)
+![Dashboard 1](Screenshot%202026-10-26%20173322.png)
 
 ### 2. Analytics & Detailed Insights
-![Dashboard 2](Screenshot 2026-10-26 173354.png)
+![Dashboard 2](Screenshot%202026-10-26%20173354.png)
