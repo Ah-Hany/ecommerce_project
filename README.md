@@ -21,9 +21,7 @@ This project simulates a real-world e-commerce data pipeline:
 - Revenue and sales volume tracking by product category.
 - Customer sentiment integration (Average ratings mapped from NoSQL reviews).
 
-## 📊 Project Screenshots
+## Project Screenshots
 
-<p align="center">
-  <img src="Screenshot-2026-10-26-173322.png" width="48%" />
-  <img src="Screenshot-2026-10-26-173354.png" width="48%" />
-</p>
+![Dashboard 1](Screenshot-2026-10-26-173322.png)
+![Dashboard 2](Screenshot-2026-10-26-173354.png)
