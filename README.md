@@ -16,12 +16,14 @@ This project simulates a real-world e-commerce data pipeline:
 - **Visualization**: Streamlit
 - **DevOps/Logging**: Built-in Python Logging, Git/GitHub
 
-## Features
+## Features & Dashboards
+
 - Automated data quality standardization (`str.title()`, `str.strip()`).
 - Revenue and sales volume tracking by product category.
 - Customer sentiment integration (Average ratings mapped from NoSQL reviews).
 
-## Project Screenshots
+### 1. Dashboard Overview & Metrics
+![Dashboard 1](Screenshot%202026-10-26-173322.png)
 
-![Dashboard 1](Screenshot%202026-10-26%20173322.png)
-![Dashboard 2](Screenshot%202026-10-26%20173354.png)
+### 2. Analytics & Detailed Insights
+![Dashboard 2](Screenshot%202026-10-26-173354.png)
