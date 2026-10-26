@@ -1,11 +1,35 @@
-# E-Commerce Multi-Source Pipeline & Dashboard
+# End-to-End E-Commerce Data Engineering & Analytics Pipeline
 
-An end-to-end data engineering project that integrates structured data from PostgreSQL and unstructured customer reviews from MongoDB using a custom Python ETL pipeline, visualized via interactive Streamlit dashboards.
+An enterprise-grade, multi-source ETL pipeline and interactive analytics dashboard built with Python, PostgreSQL, MongoDB, and Streamlit.
 
-## Project Architecture & Dashboard Preview
+## Project Overview
+This project simulates a real-world e-commerce data pipeline:
+- **Extract**: Gathers transactional order data from **PostgreSQL** and customer reviews/ratings from **MongoDB**.
+- **Transform**: Cleans, standardizes data types, handles case-sensitivity, and aggregates KPIs using **Pandas**.
+- **Load**: Exports processed datasets into local CSV reports and updates a relational summary schema back into **PostgreSQL**.
+- **Visualize**: Powers a real-time analytics web dashboard using **Streamlit**.
 
-<p align="center">
-  <img src="images/dash1.png" width="800">
-  <br><br>
-  <img src="images/dash2.png" width="800">
-</p>
+## Tech Stack
+- **Languages**: Python
+- **Databases**: PostgreSQL, MongoDB
+- **Data Processing**: Pandas, Psycopg2, PyMongo
+- **Visualization**: Streamlit
+- **DevOps/Logging**: Built-in Python Logging, Git/GitHub
+
+---
+
+## Features & Dashboards
+
+### 1. Executive Summary & Core Metrics
+- Automated data quality standardization (`str.title()`, `str.strip()`).
+- High-level KPIs tracking total revenue, total orders, and overall items sold dynamically.
+
+![Dashboard 1](dash1.png)
+
+---
+
+### 2. Product Revenue & Customer Sentiment Insights
+- Revenue and sales volume tracking broken down by product category.
+- Customer sentiment integration incorporating average ratings mapped seamlessly from NoSQL reviews.
+
+![Dashboard 2](dash2.png)
