@@ -1,35 +1,32 @@
-# End-to-End E-Commerce Data Engineering & Analytics Pipeline
+# 🛒 E-Commerce Data Engineering & Analytics Project
 
-An enterprise-grade, multi-source ETL pipeline and interactive analytics dashboard built with Python, PostgreSQL, MongoDB, and Streamlit.
-
-## Project Overview
-This project simulates a real-world e-commerce data pipeline:
-- **Extract**: Gathers transactional order data from **PostgreSQL** and customer reviews/ratings from **MongoDB**.
-- **Transform**: Cleans, standardizes data types, handles case-sensitivity, and aggregates KPIs using **Pandas**.
-- **Load**: Exports processed datasets into local CSV reports and updates a relational summary schema back into **PostgreSQL**.
-- **Visualize**: Powers a real-time analytics web dashboard using **Streamlit**.
-
-## Tech Stack
-- **Languages**: Python
-- **Databases**: PostgreSQL, MongoDB
-- **Data Processing**: Pandas, Psycopg2, PyMongo
-- **Visualization**: Streamlit
-- **DevOps/Logging**: Built-in Python Logging, Git/GitHub
+An end-to-end data engineering and analytics project that involves extracting data from multiple sources (PostgreSQL & MongoDB), transforming it, and loading it into a production-ready **Star Schema Data Warehouse** on PostgreSQL. The project also includes an interactive analytics dashboard built with Streamlit.
 
 ---
 
-## Features & Dashboards
+## 🏗️ Architecture & Database Design
 
-### 1. Executive Summary & Core Metrics
-- Automated data quality standardization (`str.title()`, `str.strip()`).
-- High-level KPIs tracking total revenue, total orders, and overall items sold dynamically.
-
-![Dashboard 1](https://raw.githubusercontent.com/Ah-Hany/ecommerce_project/main/Screenshot%202026-10-26%20201215.png)
+The project follows a robust Star Schema design to optimize analytical queries and reporting:
+* **Dimension Tables**: `dim_customers`, `dim_products`
+* **Fact Table**: `fact_sales`
 
 ---
 
-### 2. Product Revenue & Customer Sentiment Insights
-- Revenue and sales volume tracking broken down by product category.
-- Customer sentiment integration incorporating average ratings mapped seamlessly from NoSQL reviews.
+## 📊 Analytics Dashboard (Streamlit)
 
-![Dashboard 2](https://raw.githubusercontent.com/Ah-Hany/ecommerce_project/main/Screenshot%202026-10-26%20201243.png)
+### 1. Executive Overview & KPIs
+The dashboard provides high-level business metrics including Total Revenue, Total Orders, Items Sold, and Average Rating, alongside top-performing product charts.
+![Dashboard Overview](dashboard_overview.png)
+
+### 2. Detailed Product Performance Report
+A comprehensive data grid showcasing granular metrics per product (orders, revenue, quantity sold).
+![Product Performance Report](product_performance_report.png)
+
+---
+
+## 🛠️ Tech Stack
+* **Database & Warehouse**: PostgreSQL, MongoDB
+* **ETL & Processing**: Pure SQL, Python (Pandas/NumPy for pipeline support)
+* **Visualization & UI**: Streamlit
+* **Version Control**: Git & GitHub
+*
